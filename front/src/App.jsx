@@ -1,10 +1,17 @@
+import AboutMe from "./components/AboutMe";
+import DropDown from "./components/DropDown";
 import NavBar from "./components/NavBar";
+import WhatIDo from "./components/WhatIDo";
+import LandingPage from "./components/landingPage";
 
 function App() {
   return (
-    <div className="">
+    <div className="scroll-smooth lg:bg-white">
+      <DropDown />
       <NavBar />
-      <h1 className="h1">Hello World</h1>
+      <LandingPage />
+      <AboutMe />
+      <WhatIDo />
     </div>
   );
 }
