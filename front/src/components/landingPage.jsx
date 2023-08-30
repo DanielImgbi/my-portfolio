@@ -17,7 +17,7 @@ const LandingPage = () => {
       <div className="h-[410px] flex flex-col justify-center items-center lg:w-3/6 lg:h-5/6  lg:ml-4">
         <div className="h-5/6 w-10/12 rounded-full ">
           <img
-            src="public/Screenshot_20230829-151614~2.jpg"
+            src="/Screenshot_20230829-151614~2.jpg"
             alt="user img"
             className="h-full w-full bg-gray-200 rounded-full "
           />
