@@ -4,31 +4,33 @@ import { FaHamburger, FaHome, FaBrain, FaFile, FaPhone } from "react-icons/fa";
 const NavBar = () => {
   return (
     <nav
-      className={`bg-white absolute top-20 w-full hidden lg:w-16 lg:rounded-md lg:py-2 lg:fixed lg:top-80 lg:right-0  lg:shadow-lg lg:block`}
+      className={`absolute top-4 mx-7 hidden w-[500px] lg:rounded-md lg:py-2 lg:fixed lg:right-0  lg:block`}
     >
-      <ol className="flex flex-col justify-around text-3xl font-semibold px-2  bg-white  h-[250px] lg:justify-between lg:items-center ">
+      <ol className="flex  justify-around text-xl font-semibold px-2 lg:justify-between lg:items-center ">
         <li>
-          <a href="#" className="flex items-center">
-            <FaHome className="text-[#f5c781] mr-2 " />
-            <span className="block lg:hidden">Home</span>
+          <a href="#home" className="flex items-center hover:text-green-400">
+            <span className="block ">Home</span>
           </a>
         </li>
         <li>
-          <a href="#" className="flex items-center">
-            <FaBrain className="text-[#f5c781] mr-2" />
-            <span className="lg:hidden">My Experience</span>
+          <a
+            href="#portfolio"
+            className="flex items-center hover:text-green-400"
+          >
+            <span className="">Portfolio</span>
           </a>
         </li>
         <li>
-          <a href="#" className="flex items-center">
-            <FaFile className="text-[#f5c781] mr-2" />
-            <span className="lg:hidden">My Portfolio</span>
+          <a
+            href="#experience"
+            className="flex items-center hover:text-green-400"
+          >
+            <span className="">Experience</span>
           </a>
         </li>
         <li>
-          <a href="#" className="flex items-center">
-            <FaPhone className="text-[#f5c781] mr-2" />
-            <span className="lg:hidden">Contacts</span>
+          <a href="#contact" className="flex items-center hover:text-green-400">
+            <span className="">Contacts</span>
           </a>
         </li>
       </ol>

@@ -1,19 +1,10 @@
-import AboutMe from "./components/AboutMe";
-import DropDown from "./components/DropDown";
-import NavBar from "./components/NavBar";
-import WhatIDo from "./components/WhatIDo";
-import LandingPage from "./components/landingPage";
+import { Suspense, lazy } from "react";
+import Myloader from "./components/Myloader";
+
+// const Pages = lazy(() => import("./components/Pages"));
 
 function App() {
-  return (
-    <div className="scroll-smooth lg:bg-white">
-      <DropDown />
-      <NavBar />
-      <LandingPage />
-      <AboutMe />
-      <WhatIDo />
-    </div>
-  );
+  return <Suspense fallback={<Myloader />}>{/* <Pages /> */}</Suspense>;
 }
 
 export default App;
