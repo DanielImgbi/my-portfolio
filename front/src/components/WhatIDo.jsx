@@ -49,6 +49,16 @@ const WhatIDo = () => {
         </motion.a>
 
         <Card name="Fylo web" />
+
+        <motion.a href="danieldelicacy.onrender.com">
+          <Card
+            name="Safcert"
+            detail={
+              "The complete digital solution for the processing and issuance of important academic documents."
+            }
+            src={"/SAFCerts.png"}
+          />
+        </motion.a>
       </div>
     </div>
   );
