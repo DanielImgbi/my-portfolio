@@ -18,6 +18,15 @@ const WhatIDo = () => {
         <Badge>Vanilla js</Badge>
       </div>
       <div className=" w-full box-border py-5 flex flex-col lg:flex lg:flex-row lg:justify-between lg:items-center lg:flex-wrap">
+        <motion.a href="https://safcert.onrender.com/">
+          <Card
+            name="Safcert"
+            detail={
+              "The complete digital solution for the processing and issuance of important academic documents."
+            }
+            src={"/SAFCerts.png"}
+          />
+        </motion.a>
         <motion.a href="https://portfolio-elijah.netlify.app">
           <Card
             name="Elijah"
@@ -33,30 +42,11 @@ const WhatIDo = () => {
           />
         </motion.a>
 
-        <motion.a href="https://daniel-bookstore.netlify.app">
-          <Card
-            name="upflex books"
-            detail={"Book store app"}
-            src={"/Upflex-Book-Store.png"}
-          />
-        </motion.a>
-        <motion.a href="danieldelicacy.onrender.com">
+        <motion.a href="https://danieldelicacy.onrender.com">
           <Card
             name="Sales App"
             detail={"Point of sales app"}
             src={"/POINT-OF-SALE.png"}
-          />
-        </motion.a>
-
-        <Card name="Fylo web" />
-
-        <motion.a href="danieldelicacy.onrender.com">
-          <Card
-            name="Safcert"
-            detail={
-              "The complete digital solution for the processing and issuance of important academic documents."
-            }
-            src={"/SAFCerts.png"}
           />
         </motion.a>
       </div>
