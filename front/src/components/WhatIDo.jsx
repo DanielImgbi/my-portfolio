@@ -1,7 +1,6 @@
 import React from "react";
 import Badge from "./badge";
 import Card from "./Card";
-import { motion } from "framer-motion";
 
 const WhatIDo = () => {
   return (
@@ -18,7 +17,7 @@ const WhatIDo = () => {
         <Badge>Vanilla js</Badge>
       </div>
       <div className=" w-full box-border py-5 flex flex-col lg:flex lg:flex-row lg:justify-between lg:items-center lg:flex-wrap">
-        <motion.a href="https://safcert.onrender.com/">
+        <a href="https://safcert.onrender.com/">
           <Card
             name="Safcert"
             detail={
@@ -26,29 +25,29 @@ const WhatIDo = () => {
             }
             src={"/SAFCerts.png"}
           />
-        </motion.a>
-        <motion.a href="https://portfolio-elijah.netlify.app">
+        </a>
+        <a href="https://portfolio-elijah.netlify.app">
           <Card
             name="Elijah"
             detail={"a portfolio website"}
             src="/Elijah-Porfolio.png"
           />
-        </motion.a>
-        <motion.a href="https://poke-app-daniel.netlify.app">
+        </a>
+        <a href="https://poke-app-daniel.netlify.app">
           <Card
             name="Pokemon"
             detail={"Pokemon website with complex poke api"}
             src={"/Pokemon.png"}
           />
-        </motion.a>
+        </a>
 
-        <motion.a href="https://danieldelicacy.onrender.com">
+        <a href="https://danieldelicacy.onrender.com">
           <Card
             name="Sales App"
             detail={"Point of sales app"}
             src={"/POINT-OF-SALE.png"}
           />
-        </motion.a>
+        </a>
       </div>
     </div>
   );
