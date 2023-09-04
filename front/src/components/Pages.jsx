@@ -1,8 +1,10 @@
+import { lazy } from "react";
 import AboutMe from "../components/AboutMe";
-import Experice from "../components/Experice";
 import Footer from "../components/Footer";
-import WhatIDo from "../components/WhatIDo";
 import LandingPage from "../components/landingPage";
+
+const WhatIDo = lazy(() => import("../components/WhatIDo"));
+const Experience = lazy(() => import("../components/Experience"));
 
 const Pages = () => {
   return (
@@ -10,7 +12,7 @@ const Pages = () => {
       <LandingPage />
       <AboutMe />
       <WhatIDo />
-      <Experice />
+      <Experience />
       <Footer />
     </div>
   );

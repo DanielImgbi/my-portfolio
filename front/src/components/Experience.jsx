@@ -20,6 +20,7 @@ const Experice = () => {
     { name: "Mongoose", src: "mongoosejs.png" },
     { name: "JWT", src: "jwt.png" },
   ];
+
   return (
     <>
       <h1 className="text-center text-xl font-bold lg:text-3xl" id="experience">
@@ -31,17 +32,19 @@ const Experice = () => {
             <RoundedBadge src={`/${img.src}`} key={img.name} name={img.name} />
           ))}
         </div>
-        <div className="w-3/6 ">
+        <div className="w-full flex justify-center lg:w3/6">
           <ol className="flex ">
             <li>
-              <span className="font-bold text-lg lg:mx-4">2023</span>
+              <span className="font-bold text-lg text-green-400 mx-4">
+                2023
+              </span>
             </li>
 
             <li>
               <ol className="text-lg font font-semibold">
                 <li className="flex flex-col mb-3">
                   <span>Backend Developer</span>
-                  <span className=" font-light">Frelancer (Arsify)</span>
+                  <span className=" font-light">Frelancer (Arsify) </span>
                 </li>
 
                 <li className="flex flex-col">

@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutMe = () => {
   return (
-    <div className=" px-6 text-2xl mb-5">
+    <div className=" px-6 text-2xl font-serif mb-5">
       <h1 className="text-3xl font-bold my-10  text-center">About me</h1>
       <p>
         I am an enthusiastic web developer in Bayelsa with a keen eye for

@@ -36,7 +36,7 @@ const Header = () => {
         {/* drop down */}
         {navToggle && (
           <nav
-            className={`absolute top-20 right-0 w-full z-20   h-[500px] bg-white `}
+            className={`absolute top-20 right-0 w-full z-20   h-[600px] bg-white `}
           >
             <ol className="flex flex-col justify-around text-xl  font-bold px-4   h-3/6  ">
               <li>
